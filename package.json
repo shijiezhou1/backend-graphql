@@ -1,0 +1,29 @@
+{
+  "name": "backend-graphql",
+  "version": "1.0.0",
+  "description": "The application is only use graphql which it doesn't use any expressjs or restifyjs, fastifyjs, or any third part backend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shijiezhou1/backend-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shijiezhou1/backend-graphql/issues"
+  },
+  "homepage": "https://github.com/shijiezhou1/backend-graphql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
