@@ -6,13 +6,13 @@ const port = 3000;
 const schema = buildSchema(`
   type Query {
     hello: String,
-    okay: String
+    okay: [String]
   }
 `);
 
 const root = {
     hello: () => 'Hello world!',
-    okay: () => 'This is okay'
+    okay: () => {msg: "This is okay"}
 };
 
 const app = express();
